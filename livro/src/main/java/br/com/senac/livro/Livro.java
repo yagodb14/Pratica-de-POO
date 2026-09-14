@@ -101,7 +101,13 @@ public class Livro {
      leitor15.imprimir();
      System.out.println("------------");
      
+     Leitor leitor16 = new Leitor("Harry Potter: Prisioneiro de Azkaban", "J.K Rowling", "Fantasia", 1999, 350, 90.90);
      
-   
+     leitor16.calcular();
+     leitor16.imprimir();
+     System.out.println("-----------");
+     
+     System.out.println("Literatura fastatica" + leitor16.genero);
+     
     }
 }
